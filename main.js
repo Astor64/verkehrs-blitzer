@@ -16,4 +16,5 @@ function main() {
   // console.log(speed);
 
   // console.log(isFacing);
+  // console.log(speedCamera);
 }
