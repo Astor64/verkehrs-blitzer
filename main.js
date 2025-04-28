@@ -7,8 +7,8 @@ function main() {
   let speed = inputSpeed.value;
   let isFacing = inputDirection.checked;
   let speedCamera = inputSpeedCamera.value;
-
-  if (speed > (speedCamera / 100) * 10 + speedCamera && isFacing == true) {
+  let endSpeedCamera = (speedCamera / 100) * 10 + speedCamera;
+  if (speed > endSpeedCamera && isFacing == true) {
     alert("Du wurdest geblitzt");
   }
 
